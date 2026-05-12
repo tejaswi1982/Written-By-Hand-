@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#F7F1E8" />
+  <title>Upload your page — Written By Hand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container row">
+      <a class="wordmark" href="index.html"><span class="dot"></span>Written By Hand</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Ritual</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container" style="max-width: 720px;">
+      <div class="page-header">
+        <div class="eyebrow">Basic Scan</div>
+        <h1>Upload your handwritten page.</h1>
+        <p>Good light. Full page. No shadows. Don't worry about perfection.</p>
+      </div>
+
+      <label class="dropzone" data-dropzone>
+        <div class="icon">↑</div>
+        <div data-dz-label style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--ink);">Choose a photo</div>
+        <p>Or drag and drop a JPG or PNG here.</p>
+        <input type="file" accept="image/*" />
+      </label>
+
+      <div class="tips">
+        <div class="tip">Use daylight or a soft lamp.</div>
+        <div class="tip">Capture the whole page.</div>
+        <div class="tip">Keep the camera flat.</div>
+        <div class="tip">Avoid hand shadows.</div>
+      </div>
+
+      <div class="row-actions" style="justify-content: center; margin-top: 32px;">
+        <a class="btn" href="result.html">Choose Photo</a>
+        <a class="btn ghost" href="index.html">Back</a>
+      </div>
+
+      <p class="micro center" style="margin-top: 22px;">Your page stays private. We only look at form — never at meaning.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container row">
+      <div>© <span data-year></span> Written By Hand</div>
+      <div><a class="subtle-link" href="#">Privacy</a></div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
